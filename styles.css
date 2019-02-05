@@ -1,0 +1,30 @@
+body {
+    background-color: #fffdd0;
+}
+
+h1 {
+    font-family: 'Roboto', arial, serif;
+    font-size: 45px;
+
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-size:20px;
+}
+
+
+.blink_me {
+  animation: blinker 4s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
